@@ -1,0 +1,40 @@
+.card {
+  @include cardProperty;
+  box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.356);
+  width: 80%;
+  height: 80%;
+}
+
+.bankCardHeader {
+  background-color: $primaryGreen;
+  border-radius: 0;
+  padding: 3%;
+}
+
+.bankCardRow {
+  @include resetAlligments;
+}
+
+.bankHeaderCol {
+  @include flexCenter;
+}
+
+.bankCardIcon {
+  width: 4rem;
+  height: 4rem;
+  padding: 0.2rem;
+}
+
+.bankHeaderColIcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+}
+
+.cardHeading {
+  color: $primaryLight;
+}
+
+.transferMoneyCard {
+  width: 80%;
+}

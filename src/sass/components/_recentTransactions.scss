@@ -1,0 +1,41 @@
+.defaultTableStyle {
+  border-right: "1px solid lightgrey";
+  border-bottom: "1px solid lightgrey";
+}
+
+.transferTransactionTableWrapp {
+  max-height: 50vh;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.searchBar {
+  margin-bottom: 3%;
+}
+
+.searchBarBtnGroup {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.searchBarLbl {
+  color: black;
+  font-weight: bold;
+  font-size: small;
+  margin: 0 4%;
+}
+
+.arrowIcons {
+  color: $secondaryGrey;
+  width: 1rem;
+  height: 1rem;
+}
+
+.closeButtonClm {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

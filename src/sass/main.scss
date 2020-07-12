@@ -1,0 +1,18 @@
+
+
+
+@import "./abstract/variables";
+@import "./abstract/mixin";
+
+@import "./base/typography";
+
+@import "./components/navBar";
+@import "./components/bankCard";
+@import './components/recentTransactions';
+@import './components/bankCardForm';
+
+@import "./layout/alligment";
+
+@import "./pages/defaultPage";
+
+@import "./vendors/bootstrap";
